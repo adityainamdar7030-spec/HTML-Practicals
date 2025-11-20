@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <style>
+        .timetable { width: 100%; border-collapse: collapse; font-family: Arial, sans-serif; }
+        .timetable caption { font-weight: bold; margin-bottom: 8px; text-align: left; }
+        .timetable th, .timetable td { border: 1px solid #444; padding: 8px; text-align: center; }
+        .timetable th.time { width: 120px; background:#f2f2f2; }
+        .timetable th.day { background:#e9f4ff; }
+        .timetable td.subject { background:#fff; }
+        .timetable tr:nth-child(even) td.subject { background:#fbfbfb; }
+    </style>
+
+    <table class="timetable">
+        <caption>Weekly Class Timetable (6 Days × 5 Hours)</caption>
+        <thead>
+            <tr>
+                <th class="time">Time</th>
+                <th class="day">Monday</th>
+                <th class="day">Tuesday</th>
+                <th class="day">Wednesday</th>
+                <th class="day">Thursday</th>
+                <th class="day">Friday</th>
+                <th class="day">Saturday</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th class="time">09:00 – 10:00</th>
+                <td class="subject">Mathematics</td>
+                <td class="subject">English</td>
+                <td class="subject">Physics</td>
+                <td class="subject">Chemistry</td>
+                <td class="subject">History</td>
+                <td class="subject">Physical Ed.</td>
+            </tr>
+            <tr>
+                <th class="time">10:15 – 11:15</th>
+                <td class="subject">Biology</td>
+                <td class="subject">Mathematics</td>
+                <td class="subject">Computer Sci.</td>
+                <td class="subject">English</td>
+                <td class="subject">Geography</td>
+                <td class="subject">Art</td>
+            </tr>
+            <tr>
+                <th class="time">11:30 – 12:30</th>
+                <td class="subject">Computer Sci.</td>
+                <td class="subject">Chemistry</td>
+                <td class="subject">Mathematics</td>
+                <td class="subject">Biology</td>
+                <td class="subject">Physics</td>
+                <td class="subject">Workshop</td>
+            </tr>
+            <tr>
+                <th class="time">13:30 – 14:30</th>
+                <td class="subject">English</td>
+                <td class="subject">History</td>
+                <td class="subject">Geography</td>
+                <td class="subject">Mathematics</td>
+                <td class="subject">Computer Sci.</td>
+                <td class="subject">Music</td>
+            </tr>
+            <tr>
+                <th class="time">14:45 – 15:45</th>
+                <td class="subject">Chemistry</td>
+                <td class="subject">Physics</td>
+                <td class="subject">English</td>
+                <td class="subject">Art</td>
+                <td class="subject">Biology</td>
+                <td class="subject">Free Study</td>
+            </tr>
+        </tbody>
+    </table>
+    
+</body>
+</html>
